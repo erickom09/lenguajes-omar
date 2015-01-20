@@ -16,7 +16,7 @@ public class LenguajesOmar {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Mi primer programa java 11");
+        System.out.println("Linea modificada");
     }
     
 }
