@@ -18,9 +18,10 @@ public class AplicacionImc {
         // primero creamo un objeto de tipo IMC
         Imc xxx= new Imc();
         //  referncia= instancia tambien se le conoce como constructor
-        Float resultado=xxx.calcular(1.73f, 66);
+        //float resultado= xxx.calcular(1.73f, 66);
                    //(selepone f por que es un flotante,)
-      System.out.println("tu imc es :"+resultado);
+      //System.out.println("tu imc es :"+resultado);
     }
     
 }
+

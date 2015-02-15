@@ -18,12 +18,13 @@ package octavo.java.cap1;
 public class Imc {
    private float estatura;
    private float peso;
-   public Void setpeso(float Peso){
+   public void setpeso(float Peso){
        this.peso=peso;
    }
    public void setestatura(float estatura){
        this.estatura=estatura;
-   //public float calcular(){
+   }
+   public float calcular(){
        //float algo=peso/(estatura*estatura);
        //return algo;
        return peso/(estatura*estatura); //+ase lo mismo 

@@ -9,16 +9,9 @@ package Cuadrado;
  *
  * @author Usuario
  */
-public class Cuadrado {
-    private int lado;
-    public void setLado(int lado){
-        this.lado=lado;
-    }
-    public int getlado(){
-        return lado;
-    }
-    public int calcularArea(){
-        int area=lado*lado;
-        return area;
+public class TestArea {
+    public static void main(String args[]){
+        Cuadrado xxx=new Cuadrado();
+        System.out.println(xxx.calcularArea());
     }
 }
