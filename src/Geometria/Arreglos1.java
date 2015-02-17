@@ -25,12 +25,22 @@ public class Arreglos1 {
         x[2]=-23;
         //X[3]=12;
         //Iterar es buscar
-        for(int i=0;i<x.length;i++){//para que sepa el tamañodel arreglo
-            System.out.println(x[i]);
+        /*MALO  HAY UNO MEJOR*/
+        int a=2;
+        float b=0;
+        System.out.println(a/b);
+       // for(int i=0;i<4;i++){//no marca error pero esta mal marca el error Arreglndeoutofboundexception
+        /*for(int i=0;i<x.length;i++){//para que sepa el tamañodel arreglo
+            //legth */
+         //   System.out.println(x[i]);
+        //}
+            
+        //MEJORADO
+            System.out.println("si ocurre la excepcion"+"nunca me veras");
+        for(int/*ES DEL MISMO TIPO DEL ARREGLO*/ algodon:x){//: VAMOS A ITERAR
+            System.out.println(algodon);
         }
-        for(int algo:x){
-            System.out.println(algo);
-        }
+        
     }
     
 }
