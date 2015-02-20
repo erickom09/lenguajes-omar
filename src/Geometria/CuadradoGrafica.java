@@ -109,7 +109,7 @@ public class CuadradoGrafica extends javax.swing.JFrame {
          c.setLado(Float.parseFloat(jTextField1.getText()));
         jLabel1.setText("EL area es: "+  c.calcularArea());
         }
-        catch(Exception e){
+        catch(NumberFormatException | NumeroNoNegativoException e){
             jLabel1.setText(e.getMessage());
         }
     }//GEN-LAST:event_jButton1ActionPerformed
