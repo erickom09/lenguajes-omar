@@ -17,18 +17,24 @@ public class Cuadrado {
        * del lado de tu cuadrado
        * 
        */
-      public Cuadrado(float lado){
+      public Cuadrado(float lado) throws NumeroNoNegativoException{
+          ValidarValorNoNegativo.validar(lado);
           this.lado=lado;
        }
       public Cuadrado(){
           
       }
+      float calcularArea(){
+    float area=lado*lado;
+    return area;
+}
 
     public float getLado() {
         return lado;
     }
 
-    public void setLado(float lado) {
+    public void setLado(float lado) throws NumeroNoNegativoException {
+        ValidarValorNoNegativo.validar(lado);
         this.lado = lado;
     }
 }

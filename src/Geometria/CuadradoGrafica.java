@@ -40,13 +40,13 @@ public class CuadradoGrafica extends javax.swing.JFrame {
         jLabel1.setText("jLabel1");
 
         jButton1.setText("jButton1");
+        jButton1.setActionCommand("calcularArea");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
 
-        jTextField1.setText("jTextField1");
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
@@ -107,9 +107,9 @@ public class CuadradoGrafica extends javax.swing.JFrame {
         try{
         Cuadrado c=new Cuadrado();
          c.setLado(Float.parseFloat(jTextField1.getText()));
-        jLabel1.setText("EL area es: "+  c.calcularArea);
+        jLabel1.setText("EL area es: "+  c.calcularArea());
         }
-        catch(Throwable e){
+        catch(Exception e){
             jLabel1.setText(e.getMessage());
         }
     }//GEN-LAST:event_jButton1ActionPerformed
