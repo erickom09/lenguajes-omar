@@ -38,8 +38,8 @@ i=b;
         //float f2=45.2;si usted pone en un decimal java lo convierte en double y entonces no cave por que double es mas grande
         //float f2=45.2f;es la solución del anterior
         double dedos=45.2;
-        int i2=300;
-        Cuadrado c=new Cuadrado((float)dedos);//se le pone un cating dentro para que acepte el dedos
+        //int i2=300;
+        //Cuadrado c=new Cuadrado((float)dedos);//se le pone un cating dentro para que acepte el dedos
     } 
            
 }
