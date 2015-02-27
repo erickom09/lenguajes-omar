@@ -21,6 +21,7 @@ public class Rectangulo {
         this.ladoMenor = ladoMenor;
     }
 public float calcularArea(){
+    System.out.println("El Area del Rectangulo es:");
     return ladoMayor*ladoMenor;
 }
     /**

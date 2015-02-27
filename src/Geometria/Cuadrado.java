@@ -9,7 +9,7 @@ package Geometria;
  *
  * @author T-301
  */
-public class Cuadrado {
+public class Cuadrado implements Superficies {
       private float lado;
       /**
        * Este constructor tiene un argumento de tipo flotante
@@ -26,7 +26,8 @@ public class Cuadrado {
       public Cuadrado(){
           
       }
-      float calcularArea(){
+      public float calcularArea(){
+          System.out.println("El Area del Cuadrado es:");
     float area=lado*lado;
     return area;
 }

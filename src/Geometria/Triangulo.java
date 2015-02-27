@@ -21,6 +21,7 @@ public class Triangulo {
         this.altura = altura;
     }
 public float calcularArea(){
+    System.out.println("El Area del Triangulo es:");
     return (base*altura)/2;
 }
     /**
