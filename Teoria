@@ -1,0 +1,6 @@
+b) final: en este contexto indica que una variable es de tipo constante: no admitirá cambios después 
+de su declaración y asignación de valor. final determina que un atributo no puede ser sobreescrito o redefinido.
+O sea: no funcionará como una variable “tradicional”, sino como una constante. Toda constante declarada con final
+ha de ser inicializada en el mismo momento de declararla. final también se usa como palabra clave en otro contexto: 
+una clase final (final) es aquella que no puede tener clases que la hereden. Lo veremos más adelante cuando hablemos 
+sobre herencia.
