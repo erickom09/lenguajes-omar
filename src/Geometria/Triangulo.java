@@ -9,7 +9,7 @@ package Geometria;
  *
  * @author T-107
  */
-public class Triangulo {
+public class Triangulo implements Superficies{
     private float base;
     private float altura;
 
