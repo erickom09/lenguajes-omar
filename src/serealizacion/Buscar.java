@@ -77,7 +77,7 @@ public class Buscar extends javax.swing.JFrame {
         
       PersisteciaUsuario p=new PersisteciaUsuario();
         try {
-            jLabel1.setText(p.leer().getEmail());
+            jLabel1.setText("Sueldo: "+p.leer().getSueldo()+"Email: "+p.leer().getEmail());
         } catch (Exception ex) {
            
         }
